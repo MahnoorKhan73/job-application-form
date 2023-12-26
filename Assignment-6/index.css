@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ccc;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.apply_box {
+  background-color: cadetblue;
+  max-width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.3);
+  border-radius: 10px;
+}
+.small {
+  font-size: 20px;
+}
+label {
+  font-size: 17px;
+}
+.form_control{
+  width: 50%;
+}
+.form_container {
+  margin: 10px;
+}
+input,
+select,
+textarea {
+  margin-bottom: 9px;
+  padding: 6px 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input,
+select,
+textarea:focus {
+  background-color: lightsteelblue;
+  transition: 0.5s ease-in;
+  outline-color: #000000;
+}
+textarea {
+  transition: 0.5s ease-in;
+}
+input,
+select,
+textarea:hover {
+  background-color: lightsteelblue;
+  transition: 0.5s ease-out;
+}
+.button_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  /* background-color: black; */
+}
+button {
+  background-color: steelblue;
+  color: #ffffff;
+  padding: 5px 10px;
+  border: transparent solid 2px;
+  border-radius: 7px;
+  transition: 0.5s ease-in;
+}
+button:hover {
+  background-color: steelblue;
+  color: #000000;
+  border: transparent solid 2px;
+  transition: 0.5s ease-out;
+  cursor: pointer;
+}
+.width{
+  width: 95%;
+}
+.first_last {
+  display: flex;
+  
+}
+.email_job {
+  display: flex;
+}
+.city_code {
+  display: flex;
+}
+.date_cv {
+  display: flex;
+}
+.textarea_control {
+  grid-column: 1 / span 2;
+}
+.textarea_control textarea {
+  width: 100%;
+}
+@media (max-width: 460px) {
+  .textarea_control {
+    grid-column: 1 / span 1;
+  }
+}
